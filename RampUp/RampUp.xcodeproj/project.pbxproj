@@ -13,6 +13,7 @@
 		07100E0121F6CD6000C91159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07100DFF21F6CD6000C91159 /* Main.storyboard */; };
 		07100E0321F6CD6100C91159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07100E0221F6CD6100C91159 /* Assets.xcassets */; };
 		07100E0621F6CD6100C91159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07100E0421F6CD6100C91159 /* LaunchScreen.storyboard */; };
+		071D12D221F6DB2700651721 /* RampPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071D12D121F6DB2700651721 /* RampPickerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		07100E0221F6CD6100C91159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07100E0521F6CD6100C91159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07100E0721F6CD6100C91159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071D12D121F6DB2700651721 /* RampPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RampPickerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				07100DFD21F6CD6000C91159 /* RampPlacerVC.swift */,
+				071D12D121F6DB2700651721 /* RampPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07100DFE21F6CD6000C91159 /* RampPlacerVC.swift in Sources */,
+				071D12D221F6DB2700651721 /* RampPickerVC.swift in Sources */,
 				07100DFA21F6CD6000C91159 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
